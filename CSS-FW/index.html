@@ -94,6 +94,8 @@
                         <div class="col border border-dark py-3">4 of 4 <code class="bg-dark text-white p-1">.col</code></div>
                     </div>
                 </div>
+            </article>
+            <article class="my-3" id="columns">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
                     <h3>Columns</h3>
                 </div>
@@ -115,19 +117,46 @@
                             <div class="col-4 border border-dark py-3"><code class="bg-dark text-white p-1">.justify-content-between</code></div>
                         </div>
                     </div>
-                    <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
+            </article>
+            <article class="my-3" id="gutter">
+                <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
                         <h3>Gutter</h3>
+                </div>
+                <div>
+                    <div class="bd-example px-3">
+                        <div class="row my-3 gx-5 border">
+                            <div class="col border border-dark">
+                                <div class="border">Horizontal gutter</div>
+                            </div>
+                            <div class="col border border-dark">
+                                <div class="border">Horizontal gutter</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="bd-example">
-                        <div class="row my-3 g-5 p-5 border">
-                            <div class="col-6 border border-dark">.col-6</div>
-                            <div class="col-6 border border-dark">.col-6</div>
-                            <div class="col-6 border border-dark">.col-6</div>
-                            <div class="col-6 border border-dark">.col-6</div>
+                        <div class="row my-3 gy-3 border">
+                            <div class="col-4 border border-dark">
+                                <div class="border">Vertical gutter</div>
+                            </div>
+                            <div class="col-4 border border-dark">
+                                <div class="border">Vertical gutter</div>
+                            </div>
+                            <div class="col-4 border border-dark">
+                                <div class="border">Vertical gutter</div>
+                            </div>
+                            <div class="col-4 border border-dark">
+                                <div class="border">Vertical gutter</div>
+                            </div>
+                            <div class="col-4 border border-dark">
+                                <div class="border">Vertical gutter</div>
+                            </div>
+                            <div class="col-4 border border-dark">
+                                <div class="border">Vertical gutter</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </article>
+            </article> 
 
             <!-- Typography -->
             <article class="my-3" id="typography">
@@ -135,6 +164,7 @@
                     <h3>Typography</h3>
                 </div>
                 <div>
+                    <h4>Headings</h4>
                     <div class="bd-example">
                         <p class="display-1">Display 1</p>
                         <p class="display-2">Display 2</p>
@@ -151,19 +181,67 @@
                         <p class="h5">Heading 5</p>
                         <p class="h6">Heading 6</p>
                     </div>
+                    <h4>Lead paragraph</h4>
+                    <div class="bd-example">
+                        <p class="lead">
+                            This is a lead paragraph. It stands out from regular paragraph.
+                        </p>
+                    </div>
+                    <h4>Inline text elements</h4>
+                    <div class="bd-example">
+                        <p>This is a <mark>marked element</mark> (highlighted).</p>
+                        <p>The world's population is <s>7 billions</s> (this is no longer accurate).</p>
+                        <p>This is a very good milk <small>(lactose-free)</small>.</p>
+                    </div>
+                    <h4>Abbreviations</h4>
+                    <div class="bd-example">
+                        <p><abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading stylesheet">CSS</abbr> & <abbr title="Javascript">JS</abbr> are the minimum required to land a job as a front-end developer.</p>
+                    </div>
+                    <h4>Block quote</h4>
+                    <figure class="bd-example">
+                        <blockquote class="blockquote">
+                            <p>What we know is a drop. What we don't know is an ocean.</p>
+                            <figcaption class="blockquote-footer">
+                                H.G. Tannhaus <cite>(Dark)</cite>
+                            </figcaption>
+                        </blockquote>
+                    </figure>
+                    <h4>Text Utilities</h4>
+                    <div class="bd-example pe-5">
+                        <p class="text-start">This text is start-aligned.</p>
+                        <p class="text-center">This text is center-aligned.</p>
+                        <p class="text-end">This text is end-aligned.</p>
+                        <p class="text-center text-lg-start">This text is <em>start-aligned</em> on large screens but <em>center</em> on small screens.</p>
+                    </div>
+                    <h4>Colors & background</h4>
+                    <div class="bd-example">
+                        <p class="text-primary">.text-primary</p>
+                        <p class="text-secondary">.text-secondary</p>
+                        <p class="text-success">.text-success</p>
+                        <p class="text-danger">.text-danger</p>
+                        <p class="text-warning">.text-warning</p>
+                        <p class="text-info">.text-info</p>
+                        <p class="text-light bg-dark">.text-light & bg-dark</p>
+                        <p class="text-dark">.text-dark</p>
+
+                        <p class="text-black">.text-black</p>
+                        <p class="text-black text-opacity-50">.text-black & .text-opacity-50</p>
+                        <p class="text-white bg-black">.text-white & bg-black</p>
+                    </div>
                 </div>
-                <div class="bd-example">
-                    <p class="lead">
-                        This is a lead paragraph. It stands out from regular paragraph.
-                    </p>
+            </article>
+
+            <!-- Images -->
+            <article class="my-3" id="images">
+                <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
+                    <h3>Images</h3>
                 </div>
-                <div class="bd-example">
-                    <blockquote class="blockquote">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <footer class="blockquote-footer">
-                            Someone famous <cite>ChienSV</cite>
-                        </footer>
-                    </blockquote>
+                <div>
+                    <h4>Responsive Images</h4>
+                    <figure class="bd-example figure">
+                        <img src="assets/images/lotr1.webp" alt="Boromir in LOTR" class="img-fluid figure-img" width="5000px">
+                        <figcaption class="figure-caption">One image does not simply fit.</figcaption>
+                    </figure>
                 </div>
             </article>
 
