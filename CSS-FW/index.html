@@ -41,6 +41,94 @@
     <div class="bd-cheatsheet container-fluid bg-body">
         <section class="content">
             <h2 class="stickly-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Contents</h2>
+
+            <!-- Containers -->
+            <article class="my-3" id="containers">
+                <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
+                    <h3>Containers</h3>
+                </div>
+                <div>
+                    <div class="bd-example">
+                        <div class="container-example container py-3 border"><code>.container</code> provides a responsive fixed width container </div>
+                    </div>
+                    <div class="bd-example">
+                        <div class="container-example container-fluid py-3 bg-dark text-white"><code class="text-light">.container-fluid</code> provides a full width container</div>
+                    </div>
+                    <div class="bd-example">
+                        <div class="container-example container-md py-3 bg-danger text-white">
+                            <code class="text-white border p-1 px-5">.container-md</code>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Grid System -->
+            <article class="my-3" id="grid">
+                <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
+                    <h3>Grid</h3>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col border border-dark py-3">1 of 3 <code class="bg-dark text-white p-1">.col</code> (auto span)</div>
+                        <div class="col border border-dark py-3">2 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                        <div class="col border border-dark py-3">3 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-4 border border-dark py-3">1 of 2 <code class="bg-dark text-white px-1">.col-4</code></div>
+                        <div class="col-8 border border-dark py-3">2 of 2 <code class="bg-dark text-white p-1">.col-8</code></div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col border border-dark py-3">1 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                        <div class="col-6 border border-dark py-3">2 of 3 <code class="bg-dark text-white p-1">.col-6</code></div>
+                        <div class="col border border-dark py-3">3 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-lg-8 border border-dark py-3">1 of 2 <code class="bg-dark text-white p-1">.col-lg-8</code></div>
+                        <div class="col-lg-4 border border-dark py-3">2 of 2 <code class="bg-dark text-white p-1">.col-lg-4</code></div>
+                    </div>
+                    <h4 class="mb-3 mt-5 fw-bold"><code>.row-cols-3</code></h4>
+                    <div class="row my-3 row-cols-3">
+                        <div class="col border border-dark py-3">1 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                        <div class="col border border-dark py-3">2 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                        <div class="col border border-dark py-3">3 of 3 <code class="bg-dark text-white p-1">.col</code></div>
+                        <div class="col border border-dark py-3">4 of 4 <code class="bg-dark text-white p-1">.col</code></div>
+                    </div>
+                </div>
+                <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
+                    <h3>Columns</h3>
+                </div>
+                <div>
+                    <div class="bd-example">
+                        <div class="row my-3 border" style="height: 200px">
+                            <div class="col border border-dark py-3 align-self-start"><code class="bg-dark text-white p-1">.align-self-start</code></div>
+                            <div class="col border border-dark py-3 align-self-center"><code class="bg-dark text-white p-1">.align-self-center</code></div>
+                            <div class="col border border-dark py-3 align-self-end"><code class="bg-dark text-white p-1">.align-self-end</code></div>
+                        </div>
+                    </div>
+                    <div class="bd-example">
+                        <div class="row my-3 justify-content-center">
+                            <div class="col-4 border border-dark py-3"><code class="bg-dark text-white p-1">.justify-content-center</code></div>
+                            <div class="col-4 border border-dark py-3"><code class="bg-dark text-white p-1">.justify-content-center</code></div>
+                        </div>
+                        <div class="row my-3 justify-content-between">
+                            <div class="col-4 border border-dark py-3"><code class="bg-dark text-white p-1">.justify-content-between</code></div>
+                            <div class="col-4 border border-dark py-3"><code class="bg-dark text-white p-1">.justify-content-between</code></div>
+                        </div>
+                    </div>
+                    <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
+                        <h3>Gutter</h3>
+                    </div>
+                    <div class="bd-example">
+                        <div class="row my-3 g-5 p-5 border">
+                            <div class="col-6 border border-dark">.col-6</div>
+                            <div class="col-6 border border-dark">.col-6</div>
+                            <div class="col-6 border border-dark">.col-6</div>
+                            <div class="col-6 border border-dark">.col-6</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
             <!-- Typography -->
             <article class="my-3" id="typography">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
@@ -78,6 +166,7 @@
                     </blockquote>
                 </div>
             </article>
+
             <!-- Tables -->
             <article class="my-3" id="tables">
                 <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 md-xl-2">
